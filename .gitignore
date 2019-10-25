@@ -1,1 +1,4 @@
 *~
+build/*
+dist/*
+error_cat.egg-info/*
