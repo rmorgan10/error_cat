@@ -71,4 +71,9 @@ $ error_cat python fake_error.py
  ((_/`(____,-'
  ```
  
+## Artwork Credit
  
+All ascii artwork is from the [ASCII Art Archive](https://www.asciiart.eu/). Individual artworks are credited to the artist (if known) in the comments of `error_cat/characters.py`. A big thank you to the following artists whose art has been incorporated into `error_cat`:
+
+- Morfina
+- Joan G. Stark 
