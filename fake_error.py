@@ -8,10 +8,19 @@ def func():
     return
 
 def func2():
+    ###ZeroDivisionError
     #print(5.0 / 0)
-    #print(5 + '5') 
+
+    ###TypeError
+    #print(5 + '5')
+
+    ###AssertionError
     #assert 5 == 3
+
+    ###SyntaxError
     for i 
+
+
     return
 
 func()

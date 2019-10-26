@@ -7,6 +7,10 @@ from subprocess import Popen, PIPE
 import sys
 
 from error_parsing import format_error
+from ascii_error import output_ascii
+
+
+
 
 # Get command to run
 if len(sys.argv) < 1:
@@ -22,10 +26,11 @@ err = p.communicate()[1].decode("utf-8")
 #Check if there is an error
 if err.upper().find("ERROR") == -1:
     #no error
-    os.system("python ascii_error.py 'Everything worked!'")
+    ##os.system("python ascii_error.py 'Everything worked!'")
+    output_ascii(err_message='Everything worked!')
 else:
     #error
     formatted_error = format_error(err)
-    os.system("python ascii_error.py " + formatted_error) 
-    
+    ##os.system("python ascii_error.py " + formatted_error) 
+    output_ascii(err_message=formatted_error)
 
