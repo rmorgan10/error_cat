@@ -8,7 +8,7 @@ setuptools.setup(
 
      name='error_cat',  
 
-     version='0.4',
+     version='0.5',
 
      scripts=['error_cat', 'error_parsing.py', 'ascii_error.py', 'characters.py'] ,
 
