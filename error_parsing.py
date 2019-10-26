@@ -8,8 +8,6 @@ def strip_bad(string):
     return ''.join([ch for ch in string if ch not in bad]).strip()
 
 
-
-
 def format_error(err):
     
     split_err = err.split('\n')

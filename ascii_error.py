@@ -1,4 +1,4 @@
-# Amodule to make your error messages less scary
+# A module to make your error messages less scary
 
 import sys
 
